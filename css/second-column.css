@@ -1,0 +1,238 @@
+.secondary {
+  grid-row: 4 / span 1;
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-template: 579px 30px 1724px 15px / auto;
+  background-color: #3B363E;
+}
+
+.most-recent {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  display: grid;
+  grid-template: 40px 538px / 15px auto 15px;
+}
+
+.recent-title {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  display: grid;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Pridi', serif;
+  color: #FFFF;
+  text-transform: uppercase;
+}
+
+.recent-icon {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  align-self: center;
+  margin-left: 105px;
+  margin-top: 1px;
+  height: 16px;
+  width: 16px;
+}
+
+.recent-cards {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-template: repeat(5, 90px) / auto;
+  row-gap: 22px;
+}
+
+.recent {
+  display: grid;
+  grid-template: auto / 2fr 1.5fr;
+  background-color: #242526;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.recent p {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  place-self: center;
+  font-size: 24px;
+  font-family: 'Pridi', serif;
+  color: #FFFF;
+}
+
+recent-img {
+  grid-row: auto;
+  grid-column: 2 / span 1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ri1 {
+  background: url('../img/images/recent1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ri2 {
+  background: url('../img/images/recent2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ri3 {
+  background: url('../img/images/recent3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ri4 {
+  background: url('../img/images/recent4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ri5 {
+  background: url('../img/images/recent5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.r1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.recent2 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.recent2 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.recent2 {
+  grid-row: 4 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.recent2 {
+  grid-row: 5 / span 1;
+  grid-column: 1 / span 1;
+}
+
+
+.categories {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+  display: grid;
+  grid-template: repeat(4, 431px) / auto;
+}
+
+.cat-title {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  display: grid;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Pridi', serif;
+  color: #FFFF;
+  text-transform: uppercase;
+}
+
+.categories > * {
+  display: grid;
+  grid-template: 40px 1fr 1fr / 15px 1fr 1fr 15px;
+  
+}
+
+.tile1 {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  border-top-left-radius: 10px;
+}
+
+.tile1:hover {
+  background-color: #2bafab;
+}
+
+.tile2 {
+  grid-row: 2 / span 1;
+  grid-column: 3 / span 1;
+  border-top-right-radius: 10px;
+}
+
+.tile2:hover {
+  background-color: #2bafab;
+}
+
+.tile3 {
+  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+  border-bottom-left-radius: 10px;
+}
+
+.tile3:hover {
+  background-color: #2bafab;
+}
+
+.tile4 {
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 1;
+  border-bottom-right-radius: 10px;
+}
+
+.tile4:hover {
+  background-color: #2bafab;
+}
+
+.cat-tile {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color: #242526;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFF;
+  font-size: 28px;
+  font-family: 'Pridi', serif;
+}
+
+
+.cat1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / 1;
+}
+
+.cat2 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / 1;
+}
+
+.cat3 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / 1;
+}
+
+.cat4 {
+  grid-row: 4 / span 1;
+  grid-column: 1 / 1;
+}

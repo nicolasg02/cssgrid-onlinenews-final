@@ -1,0 +1,114 @@
+@media (max-width: 1250px) {
+  .grid-wrapper {
+    display: grid;
+    grid-template: 80px auto 160px / auto;
+  }
+
+  /* navbar */
+  .nav-container {
+    display: grid;
+    grid-template: 60px 16px / auto;
+  }
+
+  .logo {
+    margin-top: 12px;
+    height: 46px;
+    width: 46px;
+  }
+
+  .top-bar-menu {
+    display: flex;
+    font-size: 20px;
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  .search-li {
+    display: block;
+  }
+
+  .signin {
+    margin-left: 0;
+  }
+
+  .info-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  .signin-button {
+    height: 24px;
+    width: 24px;
+  }
+
+  .sub-bar ul {
+    font-size: 14px;
+  }
+
+  /* content */
+  .grid-wrapper {
+    display: grid;
+    grid-template: auto / auto auto 58.5em auto auto;
+  }
+
+  .primary {
+    grid-column: 2 / span 1;
+  }
+
+  .content {
+    display: grid;
+    grid-template: 10px 570px 10px auto 20px / 10px 596px 10px auto 10px;
+  }
+
+  .primary {
+    grid-column: 2 / span 3;
+    display: grid;
+    grid-template: 30px auto 15px / 10px 580px 10px 1fr 10px;
+  }
+
+  .featured-title, .trends-title {
+    display: grid;
+    font-size: 14px;
+  }
+
+  .featured-icon {
+    height: 14px;
+    width: 14px;
+    margin-left: 70px;
+  }
+
+  .trends-icon {
+    height: 14px;
+    width: 14px;
+    margin-left: 70px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .card-description {
+    font-size: 15px;
+  }
+
+  .featured-card {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .most-recent {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 32px auto;
+  }
+
+  .recent-title {
+    font-size: 14px;
+  }
+
+  .recent p {
+    font-size: 20px;
+  }
+}

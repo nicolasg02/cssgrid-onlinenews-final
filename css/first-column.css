@@ -1,0 +1,166 @@
+.primary {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 3;
+  display: grid;
+  grid-template: 40px 509px 20px / 15px 706px 15px 1fr 15px;
+  background-color: #3B363E;
+}
+
+.featured-title {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+}
+
+.trends-title {
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+}
+
+.featured-title, .trends-title {
+  display: grid;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFF;
+  font-size: 16px;
+  font-family: 'Pridi', serif;
+}
+
+.featured {
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+}
+
+.featured-icon{
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 1;
+  align-self: center;
+  margin-left: 76px;
+  height: 16px;
+  width: 16px;
+}
+
+.trends-icon {
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 1;
+  align-self: center;
+  margin-left: 76px;
+  height: 16px;
+  width: 16px;
+}
+
+.featured a {
+  text-decoration: none;
+}
+
+.featured-card {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template: repeat(3, 0.8fr) 1fr / auto;
+  background-image: url('../img/images/featured.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.card-text {
+  grid-row: 4 / span 1;
+  grid-column: 1 / -1;
+  background-color: #242526;
+  background-color: rgba(36, 37, 38, 0.3);
+  display: grid;
+  grid-template: 0.6fr 1fr / auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card-title {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+  place-self: center;
+  text-transform: uppercase;
+  color: #FFFF;
+  font-size: 38px;
+  padding: 0 10px;
+  font-family: 'Pridi', serif;
+}
+
+.card-description {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  padding: 0 20px 20px 20px;
+  text-align: justify;
+  color: #FFFF;
+  font-size: 17px;
+  font-weight: 580;
+  font-family: 'Pontano Sans', serif;
+}
+
+.trends {
+  grid-row: 2 / span 1;
+  grid-column: 4 / span 1;
+  display: grid;
+  grid-template: minmax(150px, 150px) / auto;
+  row-gap: 30px;
+}
+
+.trend {
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  background-color: #242526;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.t1 {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.t2 {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.t3 {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+}
+
+.trend p {
+  grid-row: auto;
+  grid-column: 1 / span 1;
+  font-family: 'Pridi';
+  font-size: 18px;
+  color: #FFFF;
+  align-self: center;
+  padding: 15px;
+}
+
+.trend-img {
+  grid-row: auto;
+  grid-column: 2 / span 1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.ti1 {
+  background: url('../img/images/trend1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ti2 {
+  background: url('../img/images/trend2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ti3 {
+  background: url('../img/images/trend3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,139 @@
+/* nav bar */
+.nav-container {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template: 75px 20px / auto;
+}
+
+.top-bar {
+  grid-row: 1 / span 1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  font-family: 'Pridi', serif;
+  width: 100%;
+}
+
+.logo {
+  margin: 5px 0;
+  height: 65px;
+  width: 65px;
+}
+
+.top-bar-menu {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding-left: 0;
+  margin: 0 22px;
+}
+
+.search-li {
+  display: none;
+}
+
+.top-bar-menu li {
+  margin: 0 8px;
+}
+
+.top-bar-menu li a {
+  text-decoration: none;
+  color: #FFFF;
+}
+
+.top-bar-menu li a:hover {
+  color: #31EBE6;
+}
+
+.search-li {
+  display: none;
+}
+
+.search-container {
+  display: grid;
+  grid-template: auto / 12em 5.5em;
+  height: 40px;
+  border: 3px solid #26adaa;
+}
+
+.search-bar {
+  padding: 0 10px;
+  border: 0px transparent;
+  background-color: #b4b4b4;
+  font-size: 0.9em;
+}
+
+.search-bar:focus {
+  background-color: #FFFF;
+}
+
+.search-button {
+  border: 0px transparent;
+  background-color: #434343;
+  color: #FFFF;
+  font-family: 'Pontano Sans', serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.search-button:active {
+  background-color: #999999;
+}
+
+.signin {
+  margin-left: 30px;
+  margin-top: 7px;
+}
+
+.info-button {
+  height: 34px;
+  width: 34px;
+}
+
+.signin-button {
+  margin-left: 16px;
+  height: 34px;
+  width: 34px;
+}
+
+/* sub menu bar */
+.sub-bar {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+}
+
+.sub-bar ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Pridi', serif;
+  text-transform: uppercase;
+}
+
+.sub-bar ul li a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #31EBE6;
+}
+
+.sub-bar ul li a:hover {
+  color: #FFFF;
+}
+
+.more-icon {
+  height: 16px;
+  width: 16px;
+  margin-left: -5px;
+  margin-bottom: -3px;
+}
+
+.more-icon:hover {
+  color: #FFFF;
+}
